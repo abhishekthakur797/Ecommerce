@@ -1,0 +1,38 @@
+/*? 2.1 Product section top Bar */
+.product-section-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.product-section-top h3 {
+  font-size: 4vh;
+}
+.product-section-top label select {
+  padding: 4px;
+  font-size: 2.7vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+/*? 2.3 Product Pages buttons*/
+
+.product-button-pages {
+  margin: 20px 0px;
+  gap: 10px;
+  display: flex;
+}
+.pages-btn {
+  padding: 4px 8px;
+  font-size: 4vh;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.pages-btn:hover {
+  background-color: rgb(128, 202, 16);
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  color: white;
+}
