@@ -1,0 +1,40 @@
+.account-section {
+  display: flex;
+  padding: 20px 100px;
+  gap: 80px;
+  justify-content: center;
+  background: linear-gradient(
+    rgb(255, 255, 255),
+    rgb(245, 142, 142),
+    rgb(65, 194, 250)
+  );
+}
+.account-section img {
+  height: 500px;
+  width: 500px;
+}
+.account-section-content {
+  display: flex;
+  gap: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.register-section,
+.login-section {
+  display: flex;
+}
+.account-section-content input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 2.5vh;
+}
+.account-section-content a {
+  font-style: none;
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
