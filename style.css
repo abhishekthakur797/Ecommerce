@@ -313,7 +313,7 @@ footer h2 {
     justify-content: center;
   }
   nav img {
-    width: 200px;
+    width: 230px;
   }
   nav ul {
     display: none;
@@ -384,6 +384,11 @@ footer h2 {
     flex-direction: column;
     gap: 10px;
     padding: 20px;
+    align-items: center;
+  }
+  .exclusive-offer img {
+    width: 300px;
+    height: 300px;
   }
   .exclusive-offer-text {
     text-align: center;
@@ -404,13 +409,15 @@ footer h2 {
   .testimonial {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 30px;
     margin: 0;
     margin-top: 20px;
   }
   .testimonial-content {
     gap: 5px;
-    padding: 5px;
+    padding: 5px 40px;
+    text-align: center;
+    align-items: center;
   }
   /*? 6.sponsors*/
   .sponsors {
