@@ -313,7 +313,7 @@ footer h2 {
     justify-content: center;
   }
   nav img {
-    width: 230px;
+    width: 300px;
   }
   nav ul {
     display: none;
@@ -372,6 +372,9 @@ footer h2 {
   .latest-product img {
     width: 200px;
     height: 250px;
+  }
+  .feature-product-content {
+    margin-top: 5px;
   }
   .feature-product h2 {
     font-size: 4.5vh;

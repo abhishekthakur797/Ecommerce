@@ -36,3 +36,16 @@
   transition: 0.3s ease-in-out;
   color: white;
 }
+/*??*Media Query*/
+@media (max-width: 450px) {
+  .product-section-top {
+    padding: 0;
+    margin: 0;
+  }
+  .product-section-top h3 {
+    font-size: 3vh;
+  }
+  .product-button-pages {
+    justify-content: center;
+  }
+}
