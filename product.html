@@ -7,6 +7,8 @@
     <title>IHD Product</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="style_media_query.css" />
+
     <link rel="icon" type="image/x-icon" href="/images/tab-logo.png" />
 
     <script
@@ -18,16 +20,21 @@
     <!--? 1.Navigation Section-->
     <nav>
       <a href="index.html"> <img src="./images/logo.png" alt="" /> </a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="product.html">Product</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="account.html">Account</a></li>
-        <li>
-          <a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a>
-        </li>
-      </ul>
+      <!--? 1.1 Hamburger Menu-->
+      <div class="hamburger-menu" id="hamburgerMenu">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+        <ul id="navigation" class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a>
+          </li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
     </nav>
     <!--? 2.Product Section-->
     <div class="product-section">
@@ -175,4 +182,5 @@
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>

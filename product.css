@@ -36,7 +36,7 @@
   transition: 0.3s ease-in-out;
   color: white;
 }
-/*??*Media Query*/
+/*??***********************Media Query*************************/
 @media (max-width: 450px) {
   .product-section-top {
     padding: 0;
