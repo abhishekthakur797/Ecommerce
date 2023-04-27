@@ -317,7 +317,6 @@ footer {
 .footer-rights img {
   width: 190px;
   height: 70px;
-  filter: invert(100%);
 }
 
 footer h2 {
